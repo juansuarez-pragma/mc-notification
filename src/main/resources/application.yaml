@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mcc-notification-service
+server:
+  port: ${SERVER_PORT:8084}
+azure:
+  servicebus:
+    connection-string: ${SERVICE_BUS_CONNECTION_STRING}
+    queue-name: credit-disbursement-queue
